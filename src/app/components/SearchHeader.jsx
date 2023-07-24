@@ -2,6 +2,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { RiSettings3Line } from "react-icons/ri";
 import { TbGridDots } from "react-icons/tb";
+import SearchBox from "./SearchBox";
+import SearchHeaderOptions from "./SearchHeaderOptions";
 
 export default function SearchHeader() {
   return (
