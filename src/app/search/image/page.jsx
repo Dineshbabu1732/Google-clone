@@ -26,6 +26,8 @@ export default async function ImageSearchPage({ searchParams }) {
       </div>
     );
   }
-  return;
-  <>{results && <ImageSearchResults results={data} />}</>;
+  return(
+  <>
+  {results && <ImageSearchResults results={data} />}
+  </>);
 }

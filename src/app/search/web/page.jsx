@@ -22,9 +22,9 @@ if(!results){
     <Link href='/' className="text-blue-500">Home</Link>
   </div>
 }
-  return 
+  return(
     <>
 {results && <WebSearchResults results ={data}/>}
     </>
-
+  )
 }
